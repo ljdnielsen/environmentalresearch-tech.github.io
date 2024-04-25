@@ -34,7 +34,7 @@
             line-height: 1.5;
         }
         header {
-            background-color: rgb(232, 232, 226);
+            background-color: #e8e8e2;
             padding: 30px;
             text-align: left;
             width: 100%;
@@ -71,7 +71,7 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: brown; /* Ribbon color */
+            background-color: #e8e8e2; /* Ribbon color */
             color: white; /* Text color */
             padding: 15px;
             box-sizing: border-box;
@@ -123,8 +123,14 @@
             <a href="{{ site.baseurl}}/" class="header-link title">GENE FLOW CREDITS</a>
         </div>
     </header>
-    <div class="main-content">
-        {{ content }}
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="docs/IMG_0039.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="text-overlay">
+            <p>Your awesome text goes here!</p>
+        </div>
     </div>
     <footer class="footer-ribbon">
         <p>CONTACT</p>
