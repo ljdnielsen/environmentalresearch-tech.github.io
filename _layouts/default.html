@@ -6,39 +6,13 @@
         html, body {
             margin: 0;
             padding: 0;
-        }
-        body {
-            font-family: Helvetica, sans-serif, Arial;
-        }
-        .main-content {
+            font-family: Arial, Helvetica, sans-serif;
             background-color: #e8e8e2;
-            margin-left: 150px;
-            margin-right: 150px;
-        }
-        h1 {
-            color: darkgreen;
-            font-weight: bold;
-            font-size: 45px;
-        }
-        h2 {
-            color: black; /* Replace with your desired color */
-            font-family: Helvetica, sans-serif, Arial;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 1.5;
-        }
-        h3 {
-            color: black; /* Replace with your desired color */
-            font-family: Helvetica, sans-serif, Arial;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 1.5;
         }
         header {
             background-color: #e8e8e2;
             padding: 30px;
             text-align: left;
-            width: 100%;
         }
         .header-container {
             text-align: left;
@@ -46,115 +20,58 @@
         }
         .header-link {
             text-decoration: none;
-            color:#4d5c8c;
-            font-family: Helvetica, sans-serif, Arial;
+            color: #4d5c8c;
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
             font-size: 45px;
             display: block;
         }
-        .header-link.name {
-            font-size: large;
-            margin-left: 120px;
+        .image-container {
+            width: 60%; /* Adjust the width as needed */
+            max-width: 960px; /* Max width of the image */
+            margin: 20px auto; /* Centers the container horizontally */
+            position: relative;
         }
-        .header-link.title {
-            font-size: larger;
-        }
-        .ribbon {
+        .text-overlay {
             position: absolute;
             bottom: 0;
             left: 0;
+            background-color: rgba(86, 210, 255, 0.5); /* Semi-transparent blue */
+            color: white;
             width: 100%;
-            background-color: #e8e8e2; /* Ribbon color */
-            color: #4d5c8c; /* Text color */
-            padding: 40px;
-            box-sizing: border-box;
-            line-height: 1.5;
+            padding: 20px;
         }
-        .ribbon b {
-            font-weight: bold;
-            font-size: large;
+        footer {
+            background-color: #e8e8e2;
+            color: #4d5c8c;
+            padding: 100px 0;
             text-align: center;
-        }
-        .ribbon span {
-            font-size: large;
-            color:rgb(214, 162, 162);
-            line-height: 1.5;
-        }
-        .footer-ribbon {
-            background-color: #e8e8e2; /* Ribbon color */
-            color: #4d5c8c; /* Text color */
-            padding: 100px 0 100px 150px; /* Adjust padding as needed */
-            position: static; /* Fixed at the bottom */
-            left: 0;
-            bottom: 0;
-            margin-top: 50px;
             width: 100%;
-            box-sizing: border-box;
-            font-size: large;
-        }
-        /* Style for the footer text, if needed */
-        .footer-ribbon p {
-            margin: 0; /* Removes default margin */
-            /* Add more styles if needed */
         }
         .styled-link {
-        text-decoration: underline;
-        color: #4d5c8c;
+            text-decoration: underline;
+            color: #4d5c8c;
         }
-        body, html {
-        height: 100%;
-        margin: 0;
-        font-family: Arial, sans-serif;
-        }
-
-        .video-container {
-        position: relative;
-        width: 60%; /* Adjust the width as needed */
-        max-width: 960px; /* Max width of the video */
-        height: auto; /* Keeps aspect ratio intact */
-        }
-
-        video {
-        width: 100%;
-        height: auto;
-        }
-
-        .text-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
-        color: white;
-        width: 40%;
-        padding: 20px;
-    }
     </style>
 </head>
-<link rel="icon" href="/docs/images/favicona.ico" type="image/x-icon">
 <body>
     <header>
         <div class="header-container">
-            <a href="{{ site.baseurl}}/" class="header-link title">GENE FLOW CREDITS</a>
+            <a href="#" class="header-link">GENE FLOW CREDITS</a>
         </div>
     </header>
-    <div class="video-container">
-        <video autoplay muted loop>
-            <source src="/docs/video/å.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
+    <div class="image-container">
+        <img src="/docs/images/plant_examination.jpg" alt="Descriptive Alt Text">
         <div class="text-overlay">
             <h1>Stewardship & Wealth</h1>
             <p>At Gene Flow Credits we are building a market for conservation projects that surgically target vital corridors for life</p>
         </div>
     </div>
-    <footer class="footer-ribbon">
-        <p>CONTACT</p>
-        <br>
-        <p>Email: lassejdnielsen@icloud.com</p>
-        <p>Phone: +4571574133</p>
-        <a href="https://www.linkedin.com/in/lasse-j-d-nielsen-458b49233/" class="styled-link">
-            <p>LinkedIn</p>
-        </a>
+    <footer>
+        <p>Contact</p>
+        <p>Email: example@email.com</p>
+        <p>Phone: +1234567890</p>
+        <a href="https://www.linkedin.com/in/example-profile/" class="styled-link">LinkedIn</p>
     </footer>
 </body>
 </html>
