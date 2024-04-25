@@ -26,11 +26,17 @@
             font-size: 45px;
             display: block;
         }
+        .image-container {
+            width: 12%; /* Example adjustment */
+            max-width: 192px; /* Example maximum size if the original was 960px */
+            margin: 20px auto; /* Centers the container horizontally */
+            position: relative;
+        }
         .image-container img {
-        max-width: 100%; /* Ensures image is never larger than its container */
-        height: auto; /* Maintains aspect ratio */
-        display: block; /* Ensures no extra space is below the image */
-        margin: auto; /* Centers the image horizontally if the container is wider */
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
         .text-overlay {
             position: absolute;
