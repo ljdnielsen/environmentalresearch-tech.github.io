@@ -1,8 +1,8 @@
 # Site settings
-title: Gene Flow Credits
-description: Incentivizing Ecosystem Connectivity
+title: ENVIRONMENTAL RESEARCH & TECHNOLOGY
+description: ENVIRONMENTAL RESEARCH & TECHNOLOGY
 baseurl: "" # the subpath of your site, e.g., /blog
-url: "http://geneflowcredits.github.io" # the base hostname & protocol for your site
+url: "http://environmentalresearch-tech.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
